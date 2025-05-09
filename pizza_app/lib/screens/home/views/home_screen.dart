@@ -135,26 +135,36 @@ class HomeScreen extends StatelessWidget {
                       Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 12),
                           child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text(
-                                "10 €",
-                                style: TextStyle(
-                                  fontSize: 20,
-                                  color: Theme.of(context).colorScheme.primary,
-                                  fontWeight: FontWeight.w700
-                                ),
+                              Row(
+                                children: [
+                                  Text(
+                                    "10 €",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      color: Theme.of(context).colorScheme.primary,
+                                      fontWeight: FontWeight.w700
+                                    ),
+                                  ),
+                                  SizedBox(width: 5,),
+                                  const Text(
+                                    "12 €",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: Colors.grey,
+                                      fontWeight: FontWeight.w700,
+                                      decoration: TextDecoration.lineThrough,
+                                    ),
+                                  )
+                                ],
                               ),
-                              SizedBox(width: 5,),
-                              const Text(
-                                "12 €",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.grey,
-                                  fontWeight: FontWeight.w700,
-                                  decoration: TextDecoration.lineThrough,
-                                  decorationColor: Colors.grey
-                                ),
-                              ),
+                              IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(
+                                    MdiIcons.plusCircle,
+                                  )
+                              )
                             ],
                           )
                       )
