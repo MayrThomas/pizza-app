@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Margarita",
+    "description": "The classic that never gets old",
+    "image": "assets/1.png",
+    "spiceLevel": "balanced",
+    "diet": "vegetarian",
+    "price": 9.0,
+    "discountPrice": 7.50
+  },
+  {
+    "name": "Salami",
+    "description": "Delicious Italian salami meets our fluffy dough",
+    "image": "assets/2.png",
+    "spiceLevel": "balanced",
+    "diet": "omnivore",
+    "price": 9.0,
+    "discountPrice": 7.50
+  },
+  {
+    "name": "Prosciutto",
+    "description": "Simple and elegant like your evening attire",
+    "image": "assets/3.png",
+    "spiceLevel": "balanced",
+    "diet": "omnivore",
+    "price": 9.0,
+    "discountPrice": 7.50
+  },
+  {
+    "name": "Tonno",
+    "description": "The oceans offering to you",
+    "image": "assets/4.png",
+    "spiceLevel": "balanced",
+    "diet": "pescetarian",
+    "price": 9.0,
+    "discountPrice": 7.50
+  },
+  {
+    "name": "Diavolo",
+    "description": "The devils favourite pizza",
+    "image": "assets/5.png",
+    "spiceLevel": "balanced",
+    "diet": "vegetarian",
+    "price": 9.0,
+    "discountPrice": 7.50
+  },
+  {
+    "name": "Hawaii",
+    "description": "A single slice is like a whole vacation",
+    "image": "assets/6.png",
+    "spiceLevel": "balanced",
+    "diet": "vegetarian",
+    "price": 9.0,
+    "discountPrice": 7.50
+  }
+]
